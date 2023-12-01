@@ -1,0 +1,8 @@
+server:
+  compression:
+    enabled: true
+  port: 7003
+  servlet:
+    session:
+      timeout: 3600
+  shutdown: graceful
